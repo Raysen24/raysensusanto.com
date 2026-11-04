@@ -36,7 +36,7 @@ export const PALETTES: Record<Theme, Palette> = {
         amber: rgba([255, 196, 77]),
         onAccent: "#0a0a0a",
         particleBase: "#ffffff",
-        particleAccent: "#ffffff",
+        particleAccent: "#ff3b3b",
         lizard: "#ffffff",
     },
     light: {
@@ -51,7 +51,7 @@ export const PALETTES: Record<Theme, Palette> = {
         amber: rgba([190, 120, 0]),
         onAccent: "#f4f3ef",
         particleBase: "#111111",
-        particleAccent: "#111111",
+        particleAccent: "#e0262e",
         lizard: "#111111",
     },
 }

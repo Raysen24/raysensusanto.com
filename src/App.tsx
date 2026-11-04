@@ -332,7 +332,7 @@ function Experience({ theme }: { theme: Theme }) {
                                     <span className="xp-period">{xp.period}</span>
                                     <span className="xp-company">{xp.company}</span>
                                     <span className="xp-loc">{xp.location}</span>
-                                    {xp.current && <span className="xp-current">● Current</span>}
+                                    {xp.current && <span className="xp-current"><i className="live-dot" aria-hidden="true" />Current</span>}
                                 </div>
                                 <div className="xp-body">
                                     <h3 className="xp-role">{xp.role}</h3>
